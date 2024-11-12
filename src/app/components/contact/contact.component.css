@@ -1,0 +1,48 @@
+.contact{
+    padding: 20px;
+    max-width: 600px;
+    background-color: rgb(168, 89, 241);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.1);
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.contact form div {
+    margin-bottom: 15px;
+}
+
+.contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    padding: 8px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact button {
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.error {
+    color:rgba(168, 10, 89, 0.459);
+    font-size: 0.875em;
+}
+
+.success-message {
+    margin-top: 15px;
+    color: rgb(187, 255, 0);
+    font-weight: bold;
+}

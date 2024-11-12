@@ -1,0 +1,49 @@
+.portfolio{
+    padding: 20px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card{
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    background-color: #a0e8f1;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.project-card img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-card h3 {
+    margin-top: 10px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        max-width: 100%;
+    }
+  
+}
