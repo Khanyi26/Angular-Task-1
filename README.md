@@ -16,3 +16,4 @@ This is my personal  portfolio website, showcasing my work, skills, and projects
 * TypeScript
 
 # Deploying
+https://vercel.com/khanyi26s-projects/angular-task-1/CHyDAKRp5JV9GGjXrsNB4Ur5BHnM
